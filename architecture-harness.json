@@ -89,7 +89,6 @@
     ]
   },
   "identifierPrefixes": {
-    "SRC": "Source fact",
     "ASM": "Assumption",
     "SCN": "Scenario step",
     "VIS": "Vision principle or guardrail",

@@ -2,7 +2,7 @@
 
 > Status: Draft
 > Canonical owner: Product or program lead - name to be assigned
-> Required reviewers: Sponsor, architecture, security, engineering, operations, and assurance owners
+> Required reviewers: CIO sponsor, architecture, security, engineering, operations, and assurance owners
 > Gate: G1 and continuous governance
 > Last reviewed: Not reviewed
 
@@ -20,7 +20,7 @@
 
 | Role | Accountable for | Required decisions or reviews |
 |---|---|---|
-| Executive sponsor | Vision, business goals, funding direction, business risk | G0, objectives, scope, investment decision |
+| CIO sponsor | Approved enterprise mandate, vision, business goals and business risk | Sponsor review of G0, objectives and scope; sponsorship does not imply gate or operating-model decision authority |
 | Product or program lead | Integrated plan, dependencies, scope, change, risks, gates | G1 and cross-phase coordination |
 | Business owner | Narrative, journeys, operating outcomes, adoption | Framing and logical design review |
 | Solution or enterprise architect | Design coherence, target architecture, NFRs, ADR process | G2 and G3 recommendations |
@@ -31,9 +31,13 @@
 | FinOps or finance owner | Cost model, rates, sensitivity, budget guardrails | G5 recommendation |
 | Service owner or operations lead | Support, SLOs, procedures, rollout, recovery | G6 recommendation |
 | Presentation lead | Decision narrative, claim traceability, review | G7 recommendation |
-| Gate authority | Gate decision and conditions | Accept, hold, or return a gate |
+| Requesting user — G0 gate authority | G0 gate decision and conditions | Accept, hold, or return G0 |
+| Gate authority | Gate decisions and conditions for G1-G7 when assigned | Accept, hold, or return the applicable gate |
+| Operating-model decision authority | Capability-accountability and ownership-model decision | Accept, reject or defer the operating-model ADR after required evidence exists |
 
 Use role placeholders until named people are provided. Never invent assignments.
+
+The authoritative user statement dated 2026-09-01, made immediately after asking what G0 is, is: “authority is me.” This assigns the requesting user solely as **Requesting user — G0 gate authority**. It is an authority assignment only, not a G0 decision, and does not assign G1-G7, ADR, or operating-model decision authority.
 
 ## Artifact lifecycle
 
@@ -60,7 +64,7 @@ Use role placeholders until named people are provided. Never invent assignments.
 
 | Class | Meaning |
 |---|---|
-| Source fact | Directly supported by a cited source |
+| Source fact | Directly supported by supplied material |
 | Assumption | Unverified statement with validation ownership |
 | Target | Desired measurable state; not a forecast or achieved result |
 | Proposal | Candidate direction awaiting decision |
@@ -73,7 +77,7 @@ Use role placeholders until named people are provided. Never invent assignments.
 ## Traceability chain
 
 ```text
-SRC/ASM -> GOAL/OBJ/SCP/SCN -> CAP/REQ/DES/NFR
+ASM/SCN -> GOAL/OBJ/SCP -> CAP/REQ/DES/NFR
         -> ADR/REAL/PROD/RISK -> IMP/FBB/CTX/HND
         -> EFF/COST/operations -> TEST/EVID -> CLAIM/validated scenario
 ```
@@ -84,7 +88,7 @@ Not every record needs every link. Every implementation-handoff item and present
 
 | Record | Canonical owner |
 |---|---|
-| Source fact and scenario step | `00-framing/03-scenario.md` |
+| Scenario step | `00-framing/03-scenario.md` |
 | Vision principle or guardrail | `00-framing/01-vision.md` |
 | Assumption | `00-framing/02-assumptions.md` |
 | Business goal | `00-framing/04-business-goals.md` |
