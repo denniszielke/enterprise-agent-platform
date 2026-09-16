@@ -10,7 +10,6 @@ The architecture harness may consume evidence created by research, reviews, expe
 
 | ID | Evidence title | Class | External source | Requirement, realization, estimate, risk, or claim | Version and conditions | Result or finding | Limitation | Location | Reviewer | Date |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `EVID-001` | [Evidence item] | [Source fact/Demonstrated/Operational evidence] | [Repository, system, review, or authority] | [IDs] | [Version, environment, data, method] | [Observed result or finding] | [Boundary] | [Stable link] | [Role] | [Date] |
 
 ## Evidence rules
 

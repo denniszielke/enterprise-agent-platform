@@ -492,7 +492,7 @@ Agents can prepare recommendations. They cannot invent approval or accepted resi
 
 Use stable identifiers to connect artifacts. Common examples are:
 
-- `SRC-001`, `ASM-001`, `GOAL-001`, `OBJ-001`, and `SCP-001`
+- `SCN-001`, `ASM-003`, `GOAL-001`, `OBJ-001`, and `SCP-001`
 - `REQ-001`, `DES-001`, `NFR-001`, and `CAP-001`
 - `REAL-001`, `PROD-001`, `ADR-001`, `RISK-001`, and `DEP-001`
 - `IMP-001`, `FBB-001`, `CTX-001`, and `HND-001`

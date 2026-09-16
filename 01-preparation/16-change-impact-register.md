@@ -6,11 +6,10 @@
 > Gate: Continuous
 > Last reviewed: Not reviewed
 
-Use one row per material input change. Minor editorial changes that do not alter meaning need no replay record.
+Use one row per material input change. Minor editorial changes that do not alter meaning need no replay record. No material input change has been recorded.
 
 | Change ID | Date | Changed input and canonical source | Old meaning | New meaning | Direct links | Tasks to replay | Gates to recheck | Owner role | Status |
 |---|---|---|---|---|---|---|---|---|---|
-| `CHG-001` | [YYYY-MM-DD] | [Path and record ID] | [Prior meaning] | [New meaning] | [Artifact/record links] | [Task IDs] | [Gate IDs] | [Role] | Open |
 
 ## Replay status
 

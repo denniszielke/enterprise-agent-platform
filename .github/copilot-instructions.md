@@ -40,6 +40,16 @@ Always distinguish:
 
 Never present one class as another. Do not invent facts, owners, approvals, accepted decisions, test results, costs, or gate outcomes. Use role placeholders when names are unavailable.
 
+### Source-constrained authoring
+
+- When the user supplies an artifact as direct input or asks for source-grounded alignment, use only content explicitly present in that input or explicitly stated by the user.
+- A faithful restatement may simplify or reorganize supplied meaning, but it must not add actors, authority, ownership, deadlines, commitments, dependencies, failure behavior, gate mechanics, measures, targets, scenarios, assumptions, goals, or conclusions.
+- Do not turn source silence into an assumption, unknown-state assertion, risk, open question, evidence gap, or future commitment unless the user asks for that analysis.
+- Do not create an assumption, scenario, business goal, objective, requirement, or success measure merely because a template or workflow contains a section for it. Leave the section empty or mark it as not supplied.
+- Create proposed content only when the user explicitly asks for proposals. Label every such item `Proposal` and keep it separate from source-derived content.
+- Local identifiers and controlled-artifact metadata organize content; they do not make an unsupported statement permissible. Do not invent owners, reviewers, authorities, dates, or gate dispositions to complete metadata.
+- Before completing a source-constrained update, check every substantive addition against the allowed inputs. Remove anything classified as inference or unsupported, and report any intentionally proposed content separately.
+
 ## Folder ownership
 
 | Folder | Content it owns |
